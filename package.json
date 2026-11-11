@@ -1,0 +1,21 @@
+{
+  "name": "logger",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopernyko/logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kopernyko/logger/issues"
+  },
+  "homepage": "https://github.com/kopernyko/logger#readme"
+}
