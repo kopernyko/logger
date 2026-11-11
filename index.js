@@ -6,10 +6,10 @@ function getDate() {
 }
 
 function logMessage(msg) {
-  if (!fs.existsSync('./tmp/diagnostic.txt')) {
+  if (!fs.existsSync('./tmp/logs.txt')) {
     fs.mkdirSync('tmp')
   }
-  fs.appendFileSync('./tmp/diagnostic.txt', `${msg}\n`)
+  fs.appendFileSync('./tmp/logs.txt', `${msg}\n`)
 }
 
 export function info(msg) {
