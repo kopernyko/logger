@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kopernyko/logger/issues"
   },
-  "homepage": "https://github.com/kopernyko/logger#readme"
+  "homepage": "https://github.com/kopernyko/logger#readme",
+  "dependencies": {
+    "chalk": "^6.0.1"
+  }
 }
